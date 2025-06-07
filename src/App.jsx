@@ -6,7 +6,7 @@ import PageNotFound from "./pages/PageNotFound";
 
 export default function App() {
   return (
-      <BrowserRouter>
+    <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="product" element={<Product />} />
